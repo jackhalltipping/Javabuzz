@@ -47,7 +47,7 @@ describe('Javabuzz', function() {
       expect(javabuzz.says(15)).toEqual("Javabuzz");
     });
 
-    it ('7 when a number is not divisible by 3, 5, or 15', function () {
+    it ('the number when not divisible by 3, 5, or 15', function () {
       expect(javabuzz.says(7)).toEqual(7);
     });
   });
